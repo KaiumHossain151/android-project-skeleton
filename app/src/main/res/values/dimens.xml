@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_margin">16dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="text_size_caption_material">12sp</dimen>
+    <dimen name="text_size_small_material">14sp</dimen>
+    <dimen name="text_size_subhead_material">16sp</dimen>
+    <dimen name="text_size_medium_material">18sp</dimen>
+    <dimen name="text_size_title_material">20sp</dimen>
+    <dimen name="text_size_large_material">22sp</dimen>
+    <dimen name="text_size_headline_material">24sp</dimen>
+    <dimen name="text_size_display_1_material">34sp</dimen>
+    <dimen name="text_size_display_2_material">45sp</dimen>
+    <dimen name="text_size_display_3_material">56sp</dimen>
+    <dimen name="text_size_display_4_material">112sp</dimen>
+    <dimen name="text_size_subtitle_material_toolbar">16dp</dimen>
+
+    <dimen name="size_36_sp">36sp</dimen>
+    <dimen name="size_32_sp">32sp</dimen>
+    <dimen name="size_4_sp">4sp</dimen>
+    <dimen name="size_14_sp">14sp</dimen>
+    <dimen name="size_20_sp">20sp</dimen>
+    <dimen name="size_6_sp">6sp</dimen>
+    <dimen name="size_8_sp">8sp</dimen>
+    <dimen name="size_10_sp">10sp</dimen>
+
+    <dimen name="phone_number_left_padding">54dp</dimen>
+    <dimen name="half_standard_margin">8dp</dimen>
+    <dimen name="half_standard_margin_4">4dp</dimen>
+    <dimen name="default_1dp">1dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="number_field_margin">64dp</dimen>
+    <dimen name="medium_margin">36dp</dimen>
+    <dimen name="reg_logo_size">74dp</dimen>
+
+
+    <!--Navigation item size.-->
+    <dimen name="nav_header_height">100dp</dimen>
+    <dimen name="activity_component_margin">16dp</dimen>
+
+
+    <dimen name="maximum">24dp</dimen>
+    <dimen name="size_36_dp">36dp</dimen>
+    <dimen name="medium">20dp</dimen>
+    <dimen name="minimum">18dp</dimen>
+    <dimen name="paragraph_size">16dp</dimen>
+    <dimen name="radio_btn_outlet_closed_or_active">350dp</dimen>
+
+
+    <dimen name="paragraph">15dp</dimen>
+    <dimen name="txt_size_title">30sp</dimen>
+
+    <dimen name="landmark_image_size">80dp</dimen>
+
+    <dimen name="yes_no_btn_width">64dp</dimen>
+    <dimen name="yes_no_btn_width_55">55dp</dimen>
+    <dimen name="yes_no_btn_height_50">50dp</dimen>
+    <dimen name="yes_no_btn_height">40dp</dimen>
+    <dimen name="dimension_130dp_for_common_use">130dp</dimen>
+    <dimen name="et_bmcc">100dp</dimen>
+    <dimen name="dimension_150dp_for_common_use">150dp</dimen>
+    <dimen name="tv_questions">200dp</dimen>
+    <dimen name="leave_item_viewer_size">32dp</dimen>
+    <dimen name="btn_selfie_sync">36dp</dimen>
+    <dimen name="tv_register_your_attendance_with_selfie">200dp</dimen>
+    <dimen name="circle_image_view_profile_image">50dp</dimen>
+    <dimen name="view_background">75dp</dimen>
+    <dimen name="view_notification">35dp</dimen>
+    <dimen name="view_border_line">1dp</dimen>
+    <dimen name="image_view_checked">40dp</dimen>
+    <dimen name="view_wide_border">4dp</dimen>
+    <dimen name="outlet_type_width">110dp</dimen>
+    <dimen name="edit_text_padding">85dp</dimen>
+    <dimen name="card_height_for_outlet_status">70dp</dimen>
+    <dimen name="rating_circle_dimen">40dp</dimen>
+    <dimen name="size_18_sp">18sp</dimen>
+    <dimen name="size_16_sp">16sp</dimen>
+    <dimen name="size_26_dp">26dp</dimen>
+    <dimen name="size_16_dp">16dp</dimen>
+    <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_8sp">8sp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
+    <dimen name="size_2sp">2sp</dimen>
+    <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_14sp">14sp</dimen>
+    <dimen name="size_20sp">20sp</dimen>
+    <dimen name="size_1sp">1sp</dimen>
+    <dimen name="size_12sp">12sp</dimen>
+    <dimen name="size_32sp">32sp</dimen>
+
+</resources>

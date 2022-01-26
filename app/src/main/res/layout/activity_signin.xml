@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="signinModel"
+            type="ai.retail.myapp.viewmodels.datamodels.SignInModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/iv_reg_logo_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:src="@drawable/sign_in_background"
+            app:layout_constraintBottom_toTopOf="@+id/shadow_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_reg_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_lg_biponon"
+            app:layout_constraintEnd_toEndOf="@+id/iv_reg_logo_background"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/iv_reg_logo_background"
+            app:layout_constraintTop_toTopOf="@+id/iv_reg_logo_background"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.loopeer.shadow.ShadowView
+            android:id="@+id/shadow_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            app:cornerRadiusTL="30dp"
+            app:cornerRadiusTR="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_reg_logo"
+            app:layout_constraintVertical_bias="1.0"
+            app:shadowColor="@color/retaBaccent"
+            app:shadowMarginTop="10dp"
+            app:shadowRadius="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_label_signin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/notosansbengaliui_semibold"
+                    android:text="@string/text_sign_in"
+                    android:textSize="@dimen/size_18sp" />
+
+                <ImageView
+                    android:id="@+id/horizontal_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/ic_horizontal_small" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/text_input_layout_phone_number"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size_16sp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="@dimen/size_16sp"
+                    android:hint="@string/your_phone_number">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="phone"
+                        android:maxLength="@integer/mobile_number_length"
+                        android:fontFamily="@font/notosansbengaliui_regular"
+                        android:singleLine="true"
+                        android:text="@={signinModel.phoneNumber}"
+                        android:textSize="@dimen/size_16sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_sign_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_marginLeft="@dimen/size_16sp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="@dimen/size_16sp"
+                    android:layout_marginBottom="16dp"
+                    android:enabled="@{signinModel.valid}"
+                    android:fontFamily="@font/notosansbengaliui_medium"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@{signinModel.valid ? @color/retaBaccent : @color/btn_disabled}"
+                    android:text="@string/text_sign_in"
+                    android:textSize="@dimen/size_16sp" />
+
+            </LinearLayout>
+        </com.loopeer.shadow.ShadowView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

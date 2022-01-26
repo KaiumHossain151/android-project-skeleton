@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="colorPrimary">#e3106e</color>
+    <color name="colorPrimaryDark">#F80773</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="retaBaccent">#e3106e</color>
+    <color name="btn_disabled">#FF96C8</color>
+
+    <color name="inactive">#eeeeee</color>
+    <color name="color_707070">#707070</color>
+    <color name="black">#000000</color>
+    <color name="gray">#8a000000</color>
+    <color name="success">#00A361</color>
+    <color name="light_pink">#fcdeed</color>
+    <color name="revalidate">#21a6d8</color>
+    <color name="negative">#ff4e4e</color>
+    <color name="white">#ffffff</color>
+    <color name="text_inactive">#999999</color>
+    <color name="skyblue">#0ebdff</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="light_grey">#dadada</color>
+    <color name="merchantColor">#FF9C33</color>
+    <color name="blue_gray_50">#ECEFF1</color>
+    <color name="pink">#e79ffc</color>
+    <color name="color_merchant">#32C5FF</color>
+    <color name="merchant_plus">#6236FF</color>
+    <color name="merchant_plus_lite">#B620E0</color>
+    <color name="merchant_plus_lite_b">#1b5e20</color>
+
+    <color name="sme">#8BB100</color>
+    <color name="agent">#44D7B6</color>
+    <color name="campaign">#ff8800</color>
+    <color name="regular">#4689fc</color>
+    <color name="validation">#05cf26</color>
+    <color name="ad_hoc">#fc4646</color>
+    <color name="text_hint">#808080</color>
+    <color name="background_main">#808080</color>
+    <color name="strock">#B7B7B7</color>
+    <color name="divider_color">#F4F4F4</color>
+
+    <color name="color_status_cancel_test">#ff9900</color>
+    <color name="shape_color_status_cancel">#fcebd2</color>
+    <color name="shape_color_status_cancel2">#f57171</color>
+    <color name="shape_color_status_approved">#1400A361</color>
+
+    <color name="title_color_status_cancel">#FF0000</color>
+    <color name="title_color_status_approved">#00A361</color>
+    <color name="color_A4A4A4">#A4A4A4</color>
+    <color name="lite_green">#b4decd</color>
+    <color name="colorPending">#ebdb34</color>
+    <color name="color_808080">#808080</color>
+
+
+</resources>

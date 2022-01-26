@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="mobile_number_length">11</integer>
+    <integer name="sms_code_length">6</integer>
+    <integer name="bmcc_code_length">4</integer>
+    <integer name="phn_no_length">14</integer>
+    <integer name="competition_mobile_number">13</integer>
+    <integer name="otp">6</integer>
+</resources>
