@@ -1,6 +1,6 @@
 # android-project-skeleton
 
-## It's an android bare minimum project with all the necessary tools and libraries.
+## It's an android ready project with all the necessary tools and libraries.
 
 ## Containing elements
 
